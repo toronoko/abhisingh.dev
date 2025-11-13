@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Merienda:wght@300..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Shadows+Into+Light&display=swap");
+
+:root {
+  --background-main: #272727;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Roboto";
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+  background-color: var(--background-main);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

@@ -1,0 +1,133 @@
+.main {
+  height: 90%;
+  width: fit-content;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.credit {
+  height: 10%;
+  width: 100%;
+}
+
+@media screen and (width < 600px) {
+  .main {
+    width: 100%;
+  }
+}
+
+.profile {
+  height: 220px;
+  width: 220px;
+  border-radius: 50%;
+  transition: all 0.1s ease-in;
+}
+
+.profile {
+  box-shadow: 0 0 50px 2px rgb(113, 113, 223);
+}
+
+.mssg {
+  font-size: 2em;
+  color: rgb(189, 189, 189);
+}
+.style {
+  color: #7171df;
+  font-family: "Merienda";
+}
+
+.cs {
+  margin-top: -70px;
+  color: rgb(170, 170, 170);
+  opacity: 0.6;
+  font-size: 1.1em;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.mssg::after {
+  font-size: 1.5em;
+  content: "|";
+  animation: blinker 0.9s step-start infinite;
+}
+
+.timer {
+  width: 100%;
+  font-size: clamp(1.2rem, 2cqw, 1.5em);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-top: -30px;
+}
+
+.timer p:first-child {
+  color: rgb(150, 150, 150);
+  opacity: 0.75;
+  font-size: clamp(0.7rem, 1.8cqw, 1rem);
+  letter-spacing: 0.3px;
+  font-family: "Fira Code";
+}
+
+.time {
+  font-size: clamp(1.6rem, 4cqw, 2.4rem);
+  color: rgb(200, 200, 200);
+  font-family: monospace;
+  opacity: 0.9;
+}
+
+.credit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+.mails {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  opacity: 0.7;
+}
+
+.mails:hover {
+  opacity: 1;
+  transition: all 0.1s ease-in-out;
+}
+
+.mail {
+  height: 25px;
+  width: 25px;
+}
+
+.mail:visited {
+  color: #7171df;
+}
+
+.endCredit {
+  color: rgba(219, 219, 219, 0.733);
+  opacity: 0.9;
+}
+
+.toro {
+  color: #7171df;
+  font-family: "Italiana";
+  font-size: 1.2em;
+  letter-spacing: 1.5px;
+  margin-left: 3px;
+}
