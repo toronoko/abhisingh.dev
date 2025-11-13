@@ -3,7 +3,7 @@ import { profile } from "./assets/avatar";
 import { useEffect, useState } from "react";
 
 function App() {
-  const startTime = 1763024606626;
+  const startTime = 1763024606626; // Thursday, 13-11-2025 (14:33:26)
   const [elapsed, setElapsed] = useState("");
 
   useEffect(() => {
