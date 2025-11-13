@@ -29,6 +29,6 @@ body {
   background-color: var(--background-main);
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-direction: column;
 }
